@@ -5,5 +5,8 @@ require "quotes_controller"
 
 module BestQuotes
   class Application < Rulers::Application
+    def initialize(root:)
+      @root = root
+    end
   end
 end
