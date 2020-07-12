@@ -3,4 +3,8 @@ class QuotesController < Rulers::Controller
     # quote = system("fortune -s")
     "There is nothing either good or bad but thinking makes it so."
   end
+
+  def exception
+    raise "oops!"
+  end
 end
